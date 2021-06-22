@@ -1,1 +1,9 @@
 # SentimentAnalysis_TopicModeling_of_AmazonReviews
+
+In this project, initially, we find out the top 10 most reviewed products, and for these products, we analyze the user sentiment based on polarity. Most of the time, reviews given by the customers after the product launch are biased, as they have very little information about the product. So for the top 10 products, we analyze the average sentiments, average reviews, and rating across the customer reviews for the initial 90 days and the later days.
+The customer reviews talk about multiple things about the product. So, to understand the topics covered in the user reviews, we implemented topic modeling for the 3 most reviewed items. These topics will give the main keyword of the review, which will help the buyer understand the summary of the discussion, and for the retailer, it will help summarize the customer feedback in one or two words.	
+
+The objective of this report is to firstly understand the trend of the reviews over time, analyze the sentiments present in the reviews and the rating, and then further perform topic modeling on the customer reviews for the top three products. Our dataset consists of columns such as customer reviews, ratings, date details which we got for  Amazon products.  We started with sentiment analysis for the customer reviews to understand the customer perception of the products being reviewed. Next, we checked if there is any difference in the customer reviews, ratings and average polarity in the initial 90 days vs after 90 days, this helped us gain more insights as to if the customer reviews were biased in the initial 90 days . We performed hypothesis testing to check the statistical significance of the values obtained. Finally, we carried out topic modeling to understand the underlying semantic structure in the customer reviews.
+
+Got the dataset from kaggle https://www.kaggle.com/datafiniti/consumer-reviews-of-amazon-products
+
